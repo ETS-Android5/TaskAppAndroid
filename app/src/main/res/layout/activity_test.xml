@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:orientation="vertical"
+            >
+                    <TextView
+                        android:id="@+id/firstTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2"
+                        android:background="@color/black"
+                        android:gravity="center_vertical|right"
+                        android:text="9*6-12+4.4 : "
+                        android:textColor="@color/white"
+                        android:textSize="35dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="0dp"
+                                android:layout_weight="3"
+                                android:background="#222222"
+                                android:layout_marginRight="5dp"/>
+
+                            <Button
+                                android:layout_height="match_parent"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:background="#222222"
+                                android:gravity="center"
+                                android:text="DELETE"
+                                android:textColor="#FFFFFF"
+                                app:backgroundTint="#222222" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@color/black"
+            android:rowCount="4"
+            android:columnCount="4">
+
+                    <Button
+
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#222222"
+                        android:gravity="center"
+                        android:text="/"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#222222" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="6"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#222222"
+                        android:gravity="center"
+                        android:text="*"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#222222" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#222222"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#222222" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="."
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#474747"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#474747" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#222222"
+                        android:gravity="center"
+                        android:text="="
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#222222" />
+                    <Button
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="2dp"
+                        android:background="#222222"
+                        android:gravity="center"
+                        android:text="+"
+
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp"
+                        app:backgroundTint="#222222" />
+        </GridLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

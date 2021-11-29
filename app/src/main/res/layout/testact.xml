@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:id="@+id/tVCI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/firstLT">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstTV"
+            android:text="Parent Relative Layout"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_below="@id/firstTV"
+            android:id="@+id/HTV"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_below="@+id/HTV"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/HTV"
+            android:layout_alignParentLeft="true"
+            android:text="Left"
+            android:gravity="center"/>
+        <TextView
+            android:layout_below="@+id/HTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/HTV"
+            android:layout_alignParentRight="true"
+            android:text="Right"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tVCI"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Nested Relative Layout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

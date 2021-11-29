@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+    />
+    <!--    lab2-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_margin="10dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="62dp"-->
+<!--            android:background="#ff0000"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="24dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            />-->
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="7"-->
+<!--        android:background="#FFA500"-->
+<!--        >-->
+<!--    </ListView>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="#0000ff"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="5dp"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        >-->
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:backgroundTint="#00FF00"-->
+<!--            android:textColor="@color/black"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:backgroundTint="#FFFF00"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <Button-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:backgroundTint="#800080"-->
+
+<!--            android:textColor="@color/black"/>-->
+<!--    </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+
+    <!--    class-3 work calculator-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/relativeLayout"-->
+<!--        android:layout_width="match_parent"-->
+
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:layout_editor_absoluteX="16dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/firstTV"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:background="@color/black"-->
+<!--            android:text="9*6-12+4.4   :  "-->
+<!--            android:gravity="center_vertical|right"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="35dp" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/RV_v"-->
+<!--            android:layout_width="310dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_below="@+id/firstTV"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:background="#222222"-->
+<!--            android:paddingRight="5dp" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="97dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_below="@+id/firstTV"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:background="#222222"-->
+<!--            android:gravity="center"-->
+<!--            android:text="DELETE"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            app:backgroundTint="#222222" />-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <GridLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/black"-->
+<!--        android:columnCount="4"-->
+<!--        android:rowCount="4"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"-->
+<!--        app:layout_constraintVertical_bias="0.236">-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="7"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="8"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="9"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="95dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#222222"-->
+<!--            android:gravity="center"-->
+<!--            android:text="/"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#222222" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="4"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="4"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="6"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="95dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#222222"-->
+<!--            android:gravity="center"-->
+<!--            android:text="*"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#222222" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="1"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="2"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="3"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="95dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#222222"-->
+<!--            android:gravity="center"-->
+<!--            android:text="-"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#222222" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="."-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#474747"-->
+<!--            android:gravity="center"-->
+<!--            android:text="0"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#474747" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#222222"-->
+<!--            android:gravity="center"-->
+<!--            android:text="="-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#222222" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="95dp"-->
+<!--            android:layout_height="125dp"-->
+<!--            android:layout_margin="2dp"-->
+<!--            android:background="#222222"-->
+<!--            android:gravity="center"-->
+<!--            android:text="+"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="30sp"-->
+<!--            app:backgroundTint="#222222" />-->
+
+
+<!--    </GridLayout>-->
+
+<!--    lab 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:text="Event Manager"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            />
+        <ListView
+            android:id="@+id/listEventView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:background="#FFA500"
+            >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0000ff"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            >
+            <Button
+                android:id="@+id/createNewButton"
+                android:text="Create New"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:backgroundTint="#00FF00"
+                android:textColor="@color/black"
+                />
+            <Button
+                android:id="@+id/histioryButton"
+                android:text="history"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:backgroundTint="#800080"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/exitButton"
+                android:text="exit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:backgroundTint="#800080"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
