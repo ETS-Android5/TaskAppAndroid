@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println(MainActivity.globalCounter + "Mainactivity-Create btn was pressed");
                 MainActivity.globalCounter++;
                 finish();
+
             }
         });
 

@@ -10,6 +10,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import org.apache.http.NameValuePair;
+
+import java.util.ArrayList;
+
 public class CreateEventActivity extends AppCompatActivity {
 
     private EditText etName;
@@ -114,6 +118,18 @@ public class CreateEventActivity extends AppCompatActivity {
                         "-----"+descriptionField.getText().toString();
 
                 Util.getInstance().setKeyValue(CreateEventActivity.this,selectedId,eventValue);
+
+
+
+
+
+
+
+
+
+
+
+
                 Toast.makeText(getApplicationContext(),"Items has been updated",Toast.LENGTH_SHORT).show();
                 finish();
                 }
